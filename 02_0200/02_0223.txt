@@ -1,0 +1,277 @@
+[メインシナリオ]02_0223
+
+//----------------------------------------------------------------
+//	開始処理
+//----------------------------------------------------------------
+
+//		r,	g,	b,	a,		frame
+///#FADE,	0,	0,	0,	255,	0,
+#MSGWINDOW_OFF,
+
+//
+#WAIT,	30,
+
+#WFOUT,
+
+//	背景指定
+//		BGnum	frame
+#BGSET,	980,	30
+
+#WAIT,	30,
+
+//
+#FADE,	0,	0,	0,	0,		30
+//#WAIT,	30,
+
+#MSGWINDOW_ON,
+
+//----------------------------------------------------------------
+//	イベント内容
+//----------------------------------------------------------------
+
+#MSG,
+またしても人形の群れが行く手を阻む……！
+
+#MSG,
+凄まじい数だ。
+一つ一つを相手にしていたらとても身体が持たない……！
+
+#WFSET,	4,	5,
+
+#MSGVOICE,
+Fror01_0021_01
+フロリナ
+「対恐魔バリスタ、連続発射あぁっ！！」
+
+
+#WFOUT,
+#MSGCLEAR,
+
+#SHAKE,		12,
+
+#SEPLAY,	549,
+#WAIT,		6,
+#SEPLAY,	549,
+#WAIT,		7,
+#SEPLAY,	549,
+#WAIT,		5,
+#SEPLAY,	549,
+#WAIT,		4,
+#SEPLAY,	549,
+#WAIT,		3,
+#SEPLAY,	549,
+#WAIT,		5,
+#SEPLAY,	549,
+#WAIT,		6,
+#SEPLAY,	549,
+#WAIT,		4,
+#SEPLAY,	549,
+#WAIT,		3,
+#SEPLAY,	549,
+#WAIT,		6,
+#SEPLAY,	549,
+#WAIT,		7,
+#SEPLAY,	549,
+#WAIT,		5,
+#SEPLAY,	549,
+#WAIT,		4,
+#SEPLAY,	549,
+#WAIT,		3,
+#SEPLAY,	549,
+#WAIT,		5,
+#SEPLAY,	549,
+#WAIT,		6,
+#SEPLAY,	549,
+#WAIT,		4,
+#SEPLAY,	549,
+#WAIT,		3,
+#SEPLAY,	549,
+
+//		r,	g,	b,	a,		frame
+#FADE,	255,255,255,0,		0,
+#FADE,	255,255,255,255,	120,
+#SEPLAY,	390,
+#WAIT,		7,
+#SEPLAY,	390,
+#WAIT,		9,
+#SEPLAY,	390,
+#WAIT,		5,
+#SEPLAY,	390,
+#WAIT,		6,
+#SEPLAY,	390,
+#WAIT,		7,
+#SEPLAY,	390,
+#WAIT,		4,
+#SEPLAY,	390,
+#WAIT,		6,
+#SEPLAY,	390,
+#WAIT,		8,
+#SEPLAY,	390,
+#WAIT,		6,
+#SEPLAY,	390,
+#WAIT,		7,
+#SEPLAY,	390,
+#WAIT,		4,
+#SEPLAY,	390,
+#WAIT,		4,
+#SEPLAY,	390,
+#WAIT,		5,
+#SEPLAY,	390,
+#WAIT,		6,
+#SEPLAY,	390,
+#WAIT,		5,
+#SEPLAY,	390,
+#WAIT,		9,
+#SEPLAY,	390,
+#WAIT,		5,
+#SEPLAY,	390,
+#WAIT,		6,
+#SEPLAY,	390,
+#WAIT,		7,
+#SEPLAY,	390,
+#WAIT,		9,
+
+#FADE,	255,255,255,0,		60,
+
+#SHAKE,		0,
+
+#WAIT,		60,
+
+
+#MSG,
+打ち放たれた巨大な爆裂バリスタ矢が人形の群れを一掃する！
+
+
+//		キャラ番号	表情	位置	WF適用
+#BUSET,		4,		0,		1,		1,
+
+#MSGVOICE,
+Fror02_0210_00
+フロリナ
+「こんな時に言うのは変だって分かってる。
+　分かってるけど、こんな時だからこそ言うね」
+
+//		キャラ番号	表情	位置	WF適用
+#BUSET,		4,		2,		1,		1,
+
+#MSGVOICE,
+Fror02_0210_01
+フロリナ
+「私はお兄ちゃんの事が好き」
+
+//		キャラ番号	表情	位置	WF適用
+#BUSET,		4,		12,		1,		1,
+
+#MSGVOICE,
+Fror02_0210_02
+フロリナ
+「どんな時でも諦めないお兄ちゃんが大好き」
+
+//		キャラ番号	表情	位置	WF適用
+#BUSET,		4,		6,		1,		1,
+
+#MSGVOICE,
+Fror02_0210_03
+フロリナ
+「私もね、アー姉ちゃんやメル姉ちゃんみたいな立派な王様に、
+　私なりのやり方となり方でなってみたいって思えた」
+
+#MSGVOICE,
+Fror02_0210_04
+フロリナ
+「この夢をくれたお兄ちゃんの為なら私は何でも力になる」
+
+#MSGVOICE,
+Fror02_0210_05
+フロリナ
+「お兄ちゃんが誇れる妹である為に！」
+
+#WFOUT,
+
+#SEPLAY,	542,
+
+#MSG,
+片手に銃を、
+
+#SEPLAY,	314,
+
+#MSG,
+片手にハンマーを、
+
+#MSG,
+環境によって育まれた戦い方。
+そして彼女が自ら見出した戦い方。
+それを体現する武器をフロリナは両の手で構える。
+
+//		キャラ番号	表情	位置	WF適用
+#BUSET,		4,		5,		1,		1,
+
+#MSGVOICE,
+Fror02_0210_06
+フロリナ
+「傭兵王が惚れた人のお通りだよ！！
+　そこを……どけぇえぇぇえ！！」
+
+#BUOUT,		1,
+
+#WFOUT,
+#MSGCLEAR,
+
+#SEPLAY,	508,
+
+#SEPLAY,	360,
+
+#SHAKE,		24,
+#WAIT,		5,
+#SHAKE,		20,
+#WAIT,		5,
+#SHAKE,		16,
+#WAIT,		5,
+#SHAKE,		12,
+#WAIT,		5,
+#SHAKE,		8,
+#WAIT,		5,
+#SHAKE,		4,
+#WAIT,		5,
+#SHAKE,		0,
+#WAIT,		5,
+
+//		r,	g,	b,	a,		frame
+#FADE,	255,255,255,64,		0,
+#FADE,	255,255,255,0,		20,
+
+#SEPLAY,	543,
+
+#SHAKE,		6,
+
+#WAIT,		3,
+#SEPLAY,	543,
+#WAIT,		3,
+#SEPLAY,	543,
+#WAIT,		3,
+#SEPLAY,	543,
+#WAIT,		3,
+#SEPLAY,	543,
+
+#WAIT,		10,
+#SHAKE,		0,
+
+//		キャラ番号	表情	位置	WF適用
+#BUSET,		4,		5,		1,		1,
+
+#MSGVOICE,
+Fror02_0210_07
+フロリナ
+「お兄ちゃんが進む道は私が拓く！
+　行って！お兄ちゃん！！」
+
+
+
+//#WFOUT,
+#MSGCLEAR,
+#MSGWINDOW_OFF,
+
+#REWORD,
+
+#EVENTEND,
+#END,
